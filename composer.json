@@ -15,10 +15,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packagist.epetbar.com"
-    },
-    {
-      "packagist": false
+      "url": "https://packagist.phpcomposer.com"
     }
   ],
   "config" :{

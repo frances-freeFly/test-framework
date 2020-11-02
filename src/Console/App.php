@@ -7,7 +7,7 @@
  */
 
 
-namespace Framework\Console;
+namespace Frances\Console;
 
 
 class App

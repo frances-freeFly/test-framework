@@ -6,9 +6,9 @@
  * Date:   2020/11/2 12:10
  */
 
-namespace Framework\Bootstrap;
+namespace Frances\Bootstrap;
 
-use Framework\Console\App;
+use Frances\Console\App;
 
 class Console
 {
