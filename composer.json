@@ -1,0 +1,39 @@
+{
+  "name": "frances/framework",
+  "description": "Try to develop your own framework",
+  "authors": [
+    {
+      "name": "frances",
+      "email": "frances@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.epetbar.com"
+    },
+    {
+      "packagist": false
+    }
+  ],
+  "config" :{
+    "secure-http": false
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "Frances\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+
+    }
+  }
+}
