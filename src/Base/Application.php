@@ -7,7 +7,7 @@
  */
 namespace Frances\Base;
 
-use Frances\Helpers\FrameworkHelpers;
+use Frances\Helpers\Tools\FrameworkHelpers;
 
 class Application
 {

@@ -5,7 +5,7 @@
  * Author: runfang.deng
  * Date:   2020/11/2 17:28
  */
-namespace Frances\Helpers;
+namespace Frances\Helpers\Tools;
 
 
 class FrameworkHelpers
