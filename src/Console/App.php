@@ -10,10 +10,16 @@
 namespace Frances\Console;
 
 
-class App
+use Frances\Base\Application;
+
+class App extends Application
 {
+    /**
+     * Description：控制台启动
+     * Author: runfang.deng
+     * Date:   2020/11/2 17:23
+     */
     public function start(){
         global $server_argv;
-        print_r($server_argv);
     }
 }
