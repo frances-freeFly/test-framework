@@ -8,7 +8,10 @@
     }
   ],
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "monolog/monolog":"2.1.1",
+    "toolkit/cli-utils":"1.2.1",
+    "illuminate/support":"8.12.3"
   },
   "require-dev": {
   },

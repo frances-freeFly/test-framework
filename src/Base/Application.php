@@ -8,8 +8,9 @@
 namespace Frances\Base;
 
 use Frances\Helpers\Tools\FrameworkHelpers;
+use Frances\Log\Helper\ConsoleLog;
 
-class Application
+abstract class Application
 {
     /**
      * Application constructor.
@@ -17,6 +18,7 @@ class Application
     public function __construct()
     {
         FrameworkHelpers::checkExtension();
+        ConsoleLog::initLogger();
 
     }
 
