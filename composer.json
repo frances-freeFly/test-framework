@@ -3,6 +3,7 @@
   "description": "The frances framework",
   "keywords": ["framework", "frances"],
   "license": "MIT",
+  "homepage": "https://github.com/frances-freeFly/test-framework",
   "support": {
     "issues": "https://github.com/frances-freeFly/test-framework/issues",
     "source": "https://github.com/frances-freeFly/test-framework"
