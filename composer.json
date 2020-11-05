@@ -1,7 +1,10 @@
 {
   "name": "frances/framework",
   "description": "The frances framework",
-  "keywords": ["framework", "frances"],
+  "keywords": [
+    "framework",
+    "frances"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/frances-freeFly/test-framework",
   "support": {
@@ -14,30 +17,23 @@
       "email": "1934390317@qq.com"
     }
   ],
-
   "require": {
     "php": ">=7.2",
-    "monolog/monolog":"2.1.1",
-    "toolkit/cli-utils":"1.2.1",
-    "illuminate/support":"7.19.1"
+    "monolog/monolog": "2.1.1",
+    "toolkit/cli-utils": "1.2.1",
+    "illuminate/support": "7.19.1",
+    "phpoption/phpoption": "1.7.5"
   },
   "require-dev": {
   },
   "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
-    }
   },
-  "provide":{
-
+  "provide": {
   },
-  "conflict":{
-
+  "conflict": {
   },
   "autoload": {
     "files": [
-
     ],
     "classmap": [
     ],
@@ -47,10 +43,8 @@
   },
   "autoload-dev": {
     "files": [
-
     ],
     "psr-4": {
-
     }
   },
   "extra": {
@@ -58,8 +52,7 @@
       "dev-master": "1.x-dev"
     }
   },
-  "suggest":{
-
+  "suggest": {
   },
   "config": {
     "sort-packages": true
