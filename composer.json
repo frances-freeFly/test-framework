@@ -1,13 +1,19 @@
 {
   "name": "frances/framework",
-  "description": "Try to develop your own framework",
+  "description": "The frances framework",
+  "keywords": ["framework", "frances"],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/frances-freeFly/test-framework/issues",
+    "source": "https://github.com/frances-freeFly/test-framework"
+  },
   "authors": [
     {
       "name": "frances",
-      "email": "frances@qq.com"
+      "email": "1934390317@qq.com"
     }
   ],
-  "license": "MIT",
+
   "require": {
     "php": ">=7.2",
     "monolog/monolog":"2.1.1",
@@ -22,10 +28,16 @@
       "url": "https://packagist.phpcomposer.com"
     }
   },
-  "config" :{
-    "secure-http": false
+  "provide":{
+
+  },
+  "conflict":{
+
   },
   "autoload": {
+    "files": [
+
+    ],
     "classmap": [
     ],
     "psr-4": {
@@ -33,8 +45,24 @@
     }
   },
   "autoload-dev": {
+    "files": [
+
+    ],
     "psr-4": {
 
     }
-  }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "suggest":{
+
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
